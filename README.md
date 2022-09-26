@@ -35,7 +35,7 @@ Wallyget allows you to download wallpapers from the following sources:
 
 ## Map
 <!-- toc -->
-* [How to Use](#how-to-use)
+* [Wallyget](#wallyget)
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
@@ -46,7 +46,7 @@ $ npm install -g wallyget
 $ wallyget COMMAND
 running command...
 $ wallyget (--version)
-wallyget/0.0.1 linux-x64 node-v16.17.0
+wallyget/0.0.2 linux-x64 node-v16.17.0
 $ wallyget --help [COMMAND]
 USAGE
   $ wallyget COMMAND
@@ -55,10 +55,28 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`wallyget about`](#wallyget-about)
 * [`wallyget fetched`](#wallyget-fetched)
 * [`wallyget help [COMMAND]`](#wallyget-help-command)
 * [`wallyget wallabyss CATEGORY`](#wallyget-wallabyss-category)
 * [`wallyget wallabyss categories`](#wallyget-wallabyss-categories)
+
+## `wallyget about`
+
+Show About
+
+```
+USAGE
+  $ wallyget about
+
+DESCRIPTION
+  Show About
+
+EXAMPLES
+  $ wallyget about
+```
+
+_See code: [dist/commands/about/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.2/dist/commands/about/index.ts)_
 
 ## `wallyget fetched`
 
@@ -72,7 +90,7 @@ DESCRIPTION
   Show the location of the Fetched folder
 ```
 
-_See code: [dist/commands/fetched/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.1/dist/commands/fetched/index.ts)_
+_See code: [dist/commands/fetched/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.2/dist/commands/fetched/index.ts)_
 
 ## `wallyget help [COMMAND]`
 
@@ -114,13 +132,13 @@ DESCRIPTION
 EXAMPLES
   $ wallyget wallabyss [CATEGORY CODE]
           🔎 I found this wallpaper
-    🖇 ID: "Wallpaper_ID"
-    🌄 Name: "Wallpaper_Name"
-    🌐 Link:  "Wallpaper_Link"
-    🌐 Download Link:  "Wallpaper_Download_Link"
+  		🖇 ID: "Wallpaper_ID"
+  		🌄 Name: "Wallpaper_Name"
+  		🌐 Link:  "Wallpaper_Link"
+  		🌐 Download Link:  "Wallpaper_Download_Link"
 ```
 
-_See code: [dist/commands/wallabyss/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.1/dist/commands/wallabyss/index.ts)_
+_See code: [dist/commands/wallabyss/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.2/dist/commands/wallabyss/index.ts)_
 
 ## `wallyget wallabyss categories`
 
