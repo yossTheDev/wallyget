@@ -1,5 +1,4 @@
-Wallyget
-=================
+# Wallyget
 
 ![screenshot](img/screen.png)
 ![npm](https://img.shields.io/npm/v/wallyget)
@@ -12,7 +11,7 @@ Wallyget is a cross-platform (Linux,Windows,MacOs) and easy-to-use wallpaper dow
   Make with ❤️ and Typescript
   by Yoannis Sánchez Soto
 
-# How to Use
+## How to Use
 
 Wallyget allow you to download and set a random wallpaper for the defined category with de command:
 

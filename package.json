@@ -1,6 +1,6 @@
 {
 	"name": "wallyget",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Wallyget is a cross-platform and easy-to-use wallpaper downloader",
 	"author": "",
 	"bin": "./bin/run",
@@ -68,7 +68,12 @@
 	},
 	"bugs": "https://github.com/Apps/hello-world/issues",
 	"keywords": [
-		"oclif"
+		"oclif",
+		"wallpaper",
+		"downloader",
+		"linux",
+		"windows",
+		"macos"
 	],
 	"types": "dist/index.d.ts"
 }
