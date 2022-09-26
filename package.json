@@ -71,7 +71,7 @@
 		"oclif",
 		"wallpaper",
 		"downloader",
-		"linux",
+		"linux"
 	],
 	"types": "dist/index.d.ts"
 }
