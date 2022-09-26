@@ -6,7 +6,7 @@
 ![Telegram](https://img.shields.io/badge/t.me/yossthedev-Telegram-BLUE?style=flat&logo=Telegram)
 ![Twitter](https://img.shields.io/twitter/follow/yossthedev?style=social)
 
-Wallyget is a cross-platform (Linux,Windows,MacOs) and easy-to-use wallpaper downloader.
+Wallyget is a wallpaper downloader for Linux.
 
   Make with ❤️ and Typescript
   by Yoannis Sánchez Soto
@@ -132,10 +132,10 @@ DESCRIPTION
 EXAMPLES
   $ wallyget wallabyss [CATEGORY CODE]
           🔎 I found this wallpaper
-  		🖇 ID: "Wallpaper_ID"
-  		🌄 Name: "Wallpaper_Name"
-  		🌐 Link:  "Wallpaper_Link"
-  		🌐 Download Link:  "Wallpaper_Download_Link"
+    🖇 ID: "Wallpaper_ID"
+    🌄 Name: "Wallpaper_Name"
+    🌐 Link:  "Wallpaper_Link"
+    🌐 Download Link:  "Wallpaper_Download_Link"
 ```
 
 _See code: [dist/commands/wallabyss/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.2/dist/commands/wallabyss/index.ts)_

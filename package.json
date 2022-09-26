@@ -1,7 +1,7 @@
 {
 	"name": "wallyget",
-	"version": "0.0.2",
-	"description": "Wallyget is a cross-platform and easy-to-use wallpaper downloader",
+	"version": "0.0.3",
+	"description": "Wallyget is a wallpaper downloader for Linux",
 	"author": "",
 	"bin": "./bin/run",
 	"homepage": "https://github.com/yossTheDev/wallyget",
@@ -72,8 +72,6 @@
 		"wallpaper",
 		"downloader",
 		"linux",
-		"windows",
-		"macos"
 	],
 	"types": "dist/index.d.ts"
 }
