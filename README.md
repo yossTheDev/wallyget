@@ -1,15 +1,39 @@
-oclif-hello-world
+Wallyget
 =================
 
-oclif example Hello World CLI
+![screenshot](img/screen.png)
+![npm](https://img.shields.io/npm/v/wallyget)
+![downloads/month](https://img.shields.io/npm/dm/wallyget)
+![Telegram](https://img.shields.io/badge/t.me/yossthedev-Telegram-BLUE?style=flat&logo=Telegram)
+![Twitter](https://img.shields.io/twitter/follow/yossthedev?style=social)
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
-[![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/main.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/main)
-[![Downloads/week](https://img.shields.io/npm/dw/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
-[![License](https://img.shields.io/npm/l/oclif-hello-world.svg)](https://github.com/oclif/hello-world/blob/main/package.json)
+Wallyget is a cross-platform (Linux,Windows,MacOs) and easy-to-use wallpaper downloader.
 
+# How to Use
+
+Wallyget allow you to download and set a random wallpaper for the defined category with de command:
+
+    wallyget wallabyss [CATEGORY]
+
+It also allow the download of several wallpapers at the sam time with the option:
+
+    wallyget wallabyss  [CATEGORY] -c
+
+All downloaded wallpapers are saved in the Fetched folder, to find out the location of this folder, type:
+
+    wallyget fetched
+
+## Available Sources
+
+Wallyget allows you to download wallpapers from the following sources:
+
+* [Wallpaper Abyss](https://wall.alphacoders.com/)
+
+***More*** coming soon
+
+## Map
 <!-- toc -->
+* [How to Use](#how-to-use)
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
@@ -29,9 +53,24 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`wallyget fetched`](#wallyget-fetched)
 * [`wallyget help [COMMAND]`](#wallyget-help-command)
 * [`wallyget wallabyss CATEGORY`](#wallyget-wallabyss-category)
 * [`wallyget wallabyss categories`](#wallyget-wallabyss-categories)
+
+## `wallyget fetched`
+
+Show the location of the Fetched folder
+
+```
+USAGE
+  $ wallyget fetched
+
+DESCRIPTION
+  Show the location of the Fetched folder
+```
+
+_See code: [dist/commands/fetched/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.1/dist/commands/fetched/index.ts)_
 
 ## `wallyget help [COMMAND]`
 
@@ -73,13 +112,13 @@ DESCRIPTION
 EXAMPLES
   $ wallyget wallabyss [CATEGORY CODE]
           🔎 I found this wallpaper
-  		🖇 ID: "Wallpaper_ID"
-  		🌄 Name: "Wallpaper_Name"
-  		🌐 Link:  "Wallpaper_Link"
-  		🌐 Download Link:  "Wallpaper_Download_Link"
+    🖇 ID: "Wallpaper_ID"
+    🌄 Name: "Wallpaper_Name"
+    🌐 Link:  "Wallpaper_Link"
+    🌐 Download Link:  "Wallpaper_Download_Link"
 ```
 
-_See code: [dist/commands/wallabyss/index.ts](https://github.com/Apps/hello-world/blob/v0.0.1/dist/commands/wallabyss/index.ts)_
+_See code: [dist/commands/wallabyss/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.1/dist/commands/wallabyss/index.ts)_
 
 ## `wallyget wallabyss categories`
 
