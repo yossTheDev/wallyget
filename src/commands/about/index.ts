@@ -15,7 +15,7 @@ export default class About extends Command {
 		this.log(`
         -----------------------
         |      ${colors.blue('Wallyget')}       |
-        |       V0.0.2        |
+        |       V0.0.3        |
         -----------------------
 
        Make with ❤️ and Typescript
