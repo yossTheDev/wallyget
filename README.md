@@ -46,7 +46,7 @@ $ npm install -g wallyget
 $ wallyget COMMAND
 running command...
 $ wallyget (--version)
-wallyget/0.0.2 linux-x64 node-v16.17.0
+wallyget/0.0.3 linux-x64 node-v16.17.0
 $ wallyget --help [COMMAND]
 USAGE
   $ wallyget COMMAND
@@ -76,7 +76,7 @@ EXAMPLES
   $ wallyget about
 ```
 
-_See code: [dist/commands/about/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.2/dist/commands/about/index.ts)_
+_See code: [dist/commands/about/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.3/dist/commands/about/index.ts)_
 
 ## `wallyget fetched`
 
@@ -90,7 +90,7 @@ DESCRIPTION
   Show the location of the Fetched folder
 ```
 
-_See code: [dist/commands/fetched/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.2/dist/commands/fetched/index.ts)_
+_See code: [dist/commands/fetched/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.3/dist/commands/fetched/index.ts)_
 
 ## `wallyget help [COMMAND]`
 
@@ -132,13 +132,13 @@ DESCRIPTION
 EXAMPLES
   $ wallyget wallabyss [CATEGORY CODE]
           🔎 I found this wallpaper
-    🖇 ID: "Wallpaper_ID"
-    🌄 Name: "Wallpaper_Name"
-    🌐 Link:  "Wallpaper_Link"
-    🌐 Download Link:  "Wallpaper_Download_Link"
+  		🖇 ID: "Wallpaper_ID"
+  		🌄 Name: "Wallpaper_Name"
+  		🌐 Link:  "Wallpaper_Link"
+  		🌐 Download Link:  "Wallpaper_Download_Link"
 ```
 
-_See code: [dist/commands/wallabyss/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.2/dist/commands/wallabyss/index.ts)_
+_See code: [dist/commands/wallabyss/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.3/dist/commands/wallabyss/index.ts)_
 
 ## `wallyget wallabyss categories`
 

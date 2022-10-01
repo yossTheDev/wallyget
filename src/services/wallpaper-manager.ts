@@ -1,13 +1,15 @@
 /* eslint-disable no-await-in-loop */
 import { mkdirSync } from 'node:fs';
 import { CliUx } from '@oclif/core';
-import downloadFile from './downloader';
+import downloadFile from './general/downloader';
 import {
 	getDesktopWallpaperDLink,
 	getRandomWallpaper,
 	getRandomWallpaperCollection,
 	Resolution,
 } from './wallabyss/scraper';
+import { logWallpaper } from './general/logs';
+
 // eslint-disable-next-line unicorn/prefer-module
 const Downloader = require('nodejs-file-downloader');
 
@@ -57,8 +59,23 @@ export async function downloadWallpaper(
 		await setWallpaper(wallpaper.downloadLink, wallpaper.id, dataDir, true);
 
 	// Log to the user
-	console.log(`
+	logWallpaper(
+		wallpaper.id,
+		wallpaper.wallpaperName,
+		wallpaper.link,
+		wallpaper.downloadLink,
+		wallpaper.thumb,
+	);
+	/* console.log(`
 	🔎 I found this wallpaper
+
+	${console.log(
+		await terminalimage.default.buffer(buffer, {
+			width: '80%',
+			height: '80%',
+			preserveAspectRatio: true,
+		}),
+	)}
 
 	🖇 ID: ${wallpaper.id}
 	🌄 Name: ${wallpaper.wallpaperName}
@@ -66,7 +83,7 @@ export async function downloadWallpaper(
 	🌐 Download Link: ${wallpaper.downloadLink}
 
 	
-	`);
+	`); */
 }
 
 /**
@@ -85,33 +102,35 @@ export async function downloadCollection(
 		category,
 	);
 
-	console.log(wallpapers);
-
 	// Download wallpapers one by one
 	for (const wall of wallpapers) {
 		// If the wallpaper has valid download link, download it
 		if (wall.link !== undefined) {
 			const link = await getDesktopWallpaperDLink(`https://${wall.link}`);
-			console.log('link + ' + link);
 
 			if (link !== undefined) {
 				await downloadFile(link, `${dataDir}/fetched/${wall.id}.jpeg`);
-
-				console.log('donwloaded');
 			}
 
-			console.log('LINK + ' + link + ' other link ' + wall.link);
 			// await setWallpaper(link, el.id, this.config.dataDir);
 		}
 
 		// Log to the user
-		console.log(`
+		// Log to the user
+		logWallpaper(
+			wall.id,
+			wall.wallpaperName,
+			wall.link,
+			wall.downloadLink,
+			wall.thumb,
+		);
+		/* console.log(`
 		🔎 I found this wallpaper
 		
 		🖇 ID: ${wall.id}
 		🌄 Name: ${wall.wallpaperName}
 		🌐 Link: ${wall.link}
 		🌐 Download Link: ${'link'}
-		`);
+		`); */
 	}
 }
