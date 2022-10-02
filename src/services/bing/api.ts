@@ -33,3 +33,12 @@ export async function getTodayWallpaper(): Promise<wallpaper> {
 export async function getYesterdayWallpaper(): Promise<wallpaper> {
 	return getWallpaper('1920', 'json', '1');
 }
+
+/**
+ * Get wallpaper for the specified day of the week
+ * @param day Day of the Week 0-7
+ * @returns ""
+ */
+export async function getWallpaperFromDay(day: string): Promise<wallpaper> {
+	return getWallpaper('1920', 'json', day);
+}

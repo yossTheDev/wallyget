@@ -57,6 +57,7 @@ USAGE
 <!-- commands -->
 * [`wallyget about`](#wallyget-about)
 * [`wallyget bing`](#wallyget-bing)
+* [`wallyget bing yesterday`](#wallyget-bing-yesterday)
 * [`wallyget fetched`](#wallyget-fetched)
 * [`wallyget help [COMMAND]`](#wallyget-help-command)
 * [`wallyget wallabyss CATEGORY`](#wallyget-wallabyss-category)
@@ -85,7 +86,10 @@ Download wallpapers from Bing
 
 ```
 USAGE
-  $ wallyget bing
+  $ wallyget bing [-d <value>]
+
+FLAGS
+  -d, --day=<value>  Day of the week to download wallpaper
 
 DESCRIPTION
   Download wallpapers from Bing
@@ -95,6 +99,21 @@ EXAMPLES
 ```
 
 _See code: [dist/commands/bing/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.3/dist/commands/bing/index.ts)_
+
+## `wallyget bing yesterday`
+
+Download yesterday`s Wallpaper
+
+```
+USAGE
+  $ wallyget bing yesterday
+
+DESCRIPTION
+  Download yesterday`s Wallpaper
+
+EXAMPLES
+  $ wallyget bing yesterday
+```
 
 ## `wallyget fetched`
 
