@@ -9,9 +9,13 @@ export default class Categories extends Command {
 	static args: any = [];
 
 	async run(): Promise<void> {
-		this.log('hello world! (./src/commands/hello/world.ts)');
+		// eslint-disable-next-line unicorn/import-style
+		const chalk = await import('chalk');
 
-		this.log('ALL AVAILABLE CATEGORIES FOR WALLPAPERS ABYSS');
+		this.log(
+			chalk.default.bold(`
+			ℹ️ ALL AVAILABLE CATEGORIES FOR WALLPAPERS ABYSS`),
+		);
 
 		for (const item of getCategories()) {
 			this.log(item[0]);

@@ -13,7 +13,7 @@ export const getCategories = (): Map<string, string> => {
 	categories.set('game', 14);
 	categories.set('holiday', 15);
 	categories.set('humor', 13);
-	categories.set('manMade', 16);
+	categories.set('manmade', 16);
 	categories.set('men', 17);
 	categories.set('military', 18);
 	categories.set('misc', 19);

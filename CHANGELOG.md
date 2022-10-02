@@ -8,3 +8,5 @@
 
 * Display thumbnails in the console
 * Add Bing Wallpapers
+* Improved some dialogues
+* Fixed some bugs
