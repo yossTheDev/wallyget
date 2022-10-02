@@ -19,6 +19,7 @@ export async function setWallpaper(
 	dataDir: string,
 	set?: boolean,
 ): Promise<void> {
+	// Import Wallpaper NodeJS
 	const wallpaperCLI = await import('wallpaper');
 
 	// Create Wallyget Fetched Folder
@@ -30,7 +31,7 @@ export async function setWallpaper(
 	// await downloadFile(url, path);
 	const downloader = new Downloader({
 		url: url,
-		directory: `${dataDir}/fetched/`,
+		directory: `${dataDir}/fetched`,
 		fileName: `${id}.jpeg`,
 	});
 
@@ -66,24 +67,6 @@ export async function downloadWallpaper(
 		wallpaper.downloadLink,
 		wallpaper.thumb,
 	);
-	/* console.log(`
-	🔎 I found this wallpaper
-
-	${console.log(
-		await terminalimage.default.buffer(buffer, {
-			width: '80%',
-			height: '80%',
-			preserveAspectRatio: true,
-		}),
-	)}
-
-	🖇 ID: ${wallpaper.id}
-	🌄 Name: ${wallpaper.wallpaperName}
-	🌐 Link: ${wallpaper.link}
-	🌐 Download Link: ${wallpaper.downloadLink}
-
-	
-	`); */
 }
 
 /**

@@ -56,6 +56,7 @@ USAGE
 # Commands
 <!-- commands -->
 * [`wallyget about`](#wallyget-about)
+* [`wallyget bing`](#wallyget-bing)
 * [`wallyget fetched`](#wallyget-fetched)
 * [`wallyget help [COMMAND]`](#wallyget-help-command)
 * [`wallyget wallabyss CATEGORY`](#wallyget-wallabyss-category)
@@ -77,6 +78,23 @@ EXAMPLES
 ```
 
 _See code: [dist/commands/about/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.3/dist/commands/about/index.ts)_
+
+## `wallyget bing`
+
+Download wallpapers from Bing
+
+```
+USAGE
+  $ wallyget bing
+
+DESCRIPTION
+  Download wallpapers from Bing
+
+EXAMPLES
+  $ wallyget bing
+```
+
+_See code: [dist/commands/bing/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.3/dist/commands/bing/index.ts)_
 
 ## `wallyget fetched`
 
@@ -121,7 +139,7 @@ USAGE
   $ wallyget wallabyss [CATEGORY] [-c]
 
 ARGUMENTS
-  CATEGORY  Wallaper Category
+  CATEGORY  Category of the wallpaper to download. Type Wallyget Wallabyss Categories to show all available categories
 
 FLAGS
   -c, --collection  Download several wallpapers at the same time and save them in the Fetched folder

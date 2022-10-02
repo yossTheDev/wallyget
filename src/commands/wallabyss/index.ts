@@ -9,7 +9,7 @@ import {
 } from '../../services/wallpaper-manager';
 
 export default class Set extends Command {
-	static description = 'Download wallpapers from wall.alphacoders.com';
+	static description = 'Download wallpapers from Wallpaper Abyss';
 
 	static examples = [
 		`<%= config.bin %> <%= command.id %> [CATEGORY CODE]
@@ -32,7 +32,12 @@ export default class Set extends Command {
 	};
 
 	static args: any = [
-		{ name: 'category', description: 'Wallaper Category', required: true },
+		{
+			name: 'category',
+			description:
+				'Category of the wallpaper to download. Type Wallyget Wallabyss Categories to show all available categories',
+			required: true,
+		},
 	];
 
 	async run(): Promise<void> {
@@ -42,6 +47,7 @@ export default class Set extends Command {
 			// Start the spinner
 			CliUx.ux.action.start('Downloading...');
 
+			// Download collection or single wallpaper
 			await (flags.collection
 				? downloadCollection(
 						getCategoryCode(args.category),

@@ -21,33 +21,44 @@ export async function logWallpaper(
 	// Log to the user
 	console.log('      🔎 I found this wallpaper');
 
-	// Get wallpaper thumbnail
+	// Import Terminal-Image
 	const terminalimage = await import('terminal-image');
+
+	// import Chalk
 	// eslint-disable-next-line unicorn/import-style
 	const chalk = await import('chalk');
 
 	let buffer;
 
+	// Get wallpaper thumbnail
 	if (thumb) {
 		const response = await axios.get(thumb, {
 			responseType: 'arraybuffer',
 		});
 
+		// Get image buffer
 		buffer = Buffer.from(response.data, 'base64');
 
+		// Log separator
 		console.log(`
         ==============================
         `);
+
+		// Log image
+		console.log(
+			await terminalimage.default.buffer(buffer, {
+				width: '40%',
+				height: '40%',
+			}),
+		);
 	}
 
-	console.log(
-		await terminalimage.default.buffer(buffer, { width: '40%', height: '40%' }),
-	);
-
+	// Log separator
 	console.log(`
         ==============================
         `);
 
+	// Log wallpaper properties
 	if (id) console.log(`      🖇  ${chalk.default.bold('ID: ')}${id}`);
 	if (name) console.log(`      🌄 ${chalk.default.bold('NAME: ')} ${name}`);
 	if (link) console.log(`      🌐 ${chalk.default.bold('LINK: ')} ${link}`);
@@ -56,5 +67,5 @@ export async function logWallpaper(
 			`      🌐 ${chalk.default.bold('DOWNLOAD LINK: ')} ${downloadLink}`,
 		);
 	if (copyright)
-		console.log(`      ⚖️ ${chalk.default.bold('COPYRIGHT: ')} ${copyright}`);
+		console.log(`      ⚖️  ${chalk.default.bold('COPYRIGHT: ')} ${copyright}`);
 }

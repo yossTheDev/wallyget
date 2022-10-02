@@ -56,7 +56,7 @@ enum Categories {
 // #region  Utility Tools
 
 // Inclusive min exlusive max
-function randomNumber(max: number, min: number): number {
+export function randomNumber(max: number, min: number): number {
 	return Math.floor(Math.random() * (max - min)) + min;
 }
 

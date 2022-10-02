@@ -7,3 +7,4 @@
 ## **V 0.0.4**
 
 * Display thumbnails in the console
+* Add Bing Wallpapers
