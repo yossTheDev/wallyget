@@ -45,7 +45,7 @@ export default class Set extends Command {
 
 		if (hasCategory(args.category)) {
 			// Start the spinner
-			CliUx.ux.action.start('Downloading...');
+			CliUx.ux.action.start('⏬ Downloading...');
 
 			// Download collection or single wallpaper
 			await (flags.collection
@@ -57,8 +57,11 @@ export default class Set extends Command {
 						getCategoryCode(args.category),
 						this.config.dataDir,
 				  ));
+
+			// Stop the spinner
+			CliUx.ux.action.stop('✔ Download complete');
 		} else {
-			this.log('Incorrect category code');
+			this.warn('Incorrect category code');
 		}
 	}
 }

@@ -1,6 +1,5 @@
 /* eslint-disable no-await-in-loop */
 import { mkdirSync } from 'node:fs';
-import { CliUx } from '@oclif/core';
 import downloadFile from './general/downloader';
 import {
 	getDesktopWallpaperDLink,
@@ -9,10 +8,17 @@ import {
 	Resolution,
 } from './wallabyss/scraper';
 import { logWallpaper } from './general/logs';
-
 // eslint-disable-next-line unicorn/prefer-module
 const Downloader = require('nodejs-file-downloader');
 
+// eslint-disable-next-line valid-jsdoc
+/**
+ * Set Wallpaper from Url
+ * @param url Url to download wallpaper
+ * @param id Id or filename to save wallpaper
+ * @param dataDir Folder to save downloaded wallpaper
+ * @param set Set wallpaper? Or only download it
+ * */
 export async function setWallpaper(
 	url: string,
 	id: string,
@@ -35,11 +41,11 @@ export async function setWallpaper(
 		fileName: `${id}.jpeg`,
 	});
 
+	// Start download
 	await downloader.download();
 
+	// Set Wallpaper
 	if (set === true) wallpaperCLI.setWallpaper(path);
-
-	CliUx.ux.action.start('✔ Download complete');
 }
 
 /**

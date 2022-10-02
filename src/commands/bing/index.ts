@@ -15,7 +15,7 @@ export default class Bing extends Command {
 
 	public async run(): Promise<void> {
 		// Start the spinner
-		CliUx.ux.action.start('Downloading...');
+		CliUx.ux.action.start('⏬ Downloading...');
 
 		// Get today wallpaper
 		const wallpaper = await getTodayWallpaper();
@@ -37,5 +37,8 @@ export default class Bing extends Command {
 			this.config.dataDir,
 			true,
 		);
+
+		// Stop the spinner
+		CliUx.ux.action.stop('✔ Download complete');
 	}
 }

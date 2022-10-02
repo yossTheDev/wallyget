@@ -132,7 +132,7 @@ _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v5.1.1
 
 ## `wallyget wallabyss CATEGORY`
 
-Download wallpapers from wall.alphacoders.com
+Download wallpapers from Wallpaper Abyss
 
 ```
 USAGE
@@ -145,7 +145,7 @@ FLAGS
   -c, --collection  Download several wallpapers at the same time and save them in the Fetched folder
 
 DESCRIPTION
-  Download wallpapers from wall.alphacoders.com
+  Download wallpapers from Wallpaper Abyss
 
 EXAMPLES
   $ wallyget wallabyss [CATEGORY CODE]
