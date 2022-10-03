@@ -5,9 +5,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: ['main']
+    branches: ['master']
   pull_request:
-    branches: ['main']
+    branches: ['master']
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -30,7 +30,8 @@ jobs:
           git clone --depth=1 https://github.com/yossTheDev/wallyget
           cd wallyget
           yarn install
-          sudo npx oclif pack deb
+          yarn global add oclif
+          oclif pack deb
           cd ..
           tar czf "wallyget.tar.gz" wallyget/dist
 
