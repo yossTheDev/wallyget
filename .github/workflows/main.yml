@@ -33,7 +33,7 @@ jobs:
           cd wallyget
           yarn install
           yarn global add oclif
-          sudo oclif pack deb
+          oclif pack tarball
           cd ..
           tar czf "wallyget.tar.gz" wallyget/dist
 
