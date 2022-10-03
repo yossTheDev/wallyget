@@ -27,11 +27,13 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Pack Deb
         run: |
+          sudo apt update
+          sudo apt upgrade
           git clone --depth=1 https://github.com/yossTheDev/wallyget
           cd wallyget
           yarn install
           yarn global add oclif
-          oclif pack deb
+          sudo oclif pack deb
           cd ..
           tar czf "wallyget.tar.gz" wallyget/dist
 
