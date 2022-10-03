@@ -33,7 +33,7 @@ jobs:
           cd wallyget
           yarn install
           yarn global add pkg
-          pkg . --debug -out-path dist/
+          pkg . --debug
           cd ..
           tar czf "wallyget.tar.gz" wallyget/dist
 
