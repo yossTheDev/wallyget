@@ -33,9 +33,9 @@ jobs:
           cd wallyget
           yarn install
           yarn global add pkg
-          pkg .
+          pkg . --out-path ./dist/
           cd ..
-          tar czf "wallyget.tar.gz" wallyget/dist
+          tar czf "wallyget.tar.gz" ./wallyget/
 
       # Upload Artifacts
       - name: Upload Artifacts
