@@ -32,9 +32,8 @@ jobs:
           git clone --depth=1 https://github.com/yossTheDev/wallyget
           cd wallyget
           yarn install
-          yarn global add oclif
-          su
-          oclif pack deb -r . 
+          yarn global add pkg
+          pkg . --debug -out-path dist/
           cd ..
           tar czf "wallyget.tar.gz" wallyget/dist
 
