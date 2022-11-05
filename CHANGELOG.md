@@ -8,9 +8,6 @@
 
 * Display thumbnails in the console
 * Add Bing Wallpapers
-<<<<<<< HEAD
-=======
 * Add NASA Astronomy Picture Of The Day
->>>>>>> 7697476 (-)
 * Improved some dialogues
 * Fixed some bugs
