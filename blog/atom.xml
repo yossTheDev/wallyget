@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-test-site.com/blog</id>
+    <title>WallyGet Blog</title>
+    <updated>2022-10-12T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
+    <subtitle>WallyGet Blog</subtitle>
+    <icon>https://your-docusaurus-test-site.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Alpha v0.0.4]]></title>
+        <id>alpha v0.0.4</id>
+        <link href="https://your-docusaurus-test-site.com/blog/alpha v0.0.4"/>
+        <updated>2022-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[V 0.0.4]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v-004"><strong>V 0.0.4</strong><a class="hash-link" href="#v-004" title="Direct link to heading">​</a></h2><ul><li>Display thumbnails in the console</li><li>Add Bing Wallpapers</li><li>Add NASA Astronomy Picture Of The Day</li><li>Improved some dialogues</li><li>Fixed some bugs</li></ul>]]></content>
+        <author>
+            <name>Yoannis Sánchez Soto</name>
+            <uri>https://github.com/yossTheDev</uri>
+        </author>
+        <category label="alpha" term="alpha"/>
+    </entry>
+</feed>
