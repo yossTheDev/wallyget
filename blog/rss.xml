@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>WallyGet Blog</title>
-        <link>https://your-docusaurus-test-site.com/blog</link>
+        <link>https://your-docusaurus-test-site.com/wallyget/blog</link>
         <description>WallyGet Blog</description>
         <lastBuildDate>Wed, 12 Oct 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[Alpha v0.0.4]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/alpha v0.0.4</link>
+            <link>https://your-docusaurus-test-site.com/wallyget/blog/alpha v0.0.4</link>
             <guid>alpha v0.0.4</guid>
             <pubDate>Wed, 12 Oct 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[V 0.0.4]]></description>

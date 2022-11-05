@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[174],{817:e=>{e.exports=JSON.parse('[{"label":"alpha","permalink":"/wallyget/blog/tags/alpha","count":1}]')}}]);
