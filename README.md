@@ -158,7 +158,7 @@ DESCRIPTION
   Display help for wallyget.
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v5.1.10/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v5.1.18/src/commands/help.ts)_
 
 ## `wallyget nasa`
 
@@ -197,10 +197,10 @@ DESCRIPTION
 EXAMPLES
   $ wallyget wallabyss [CATEGORY CODE]
           🔎 I found this wallpaper
-    🖇 ID: "Wallpaper_ID"
-    🌄 Name: "Wallpaper_Name"
-    🌐 Link:  "Wallpaper_Link"
-    🌐 Download Link:  "Wallpaper_Download_Link"
+  		🖇 ID: "Wallpaper_ID"
+  		🌄 Name: "Wallpaper_Name"
+  		🌐 Link:  "Wallpaper_Link"
+  		🌐 Download Link:  "Wallpaper_Download_Link"
 ```
 
 _See code: [dist/commands/wallabyss/index.ts](https://github.com/yossTheDev/wallyget/blob/v0.0.4/dist/commands/wallabyss/index.ts)_

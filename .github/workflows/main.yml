@@ -1,8 +1,4 @@
 # This is a basic workflow to help you get started with Actions
-<<<<<<< HEAD
-=======
-
->>>>>>> 7697476 (-)
 name: CI
 
 # Controls when the workflow will run
@@ -31,7 +27,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Pack Deb
         run: |
-<<<<<<< HEAD
           sudo apt update
           sudo apt upgrade
           git clone --depth=1 https://github.com/yossTheDev/wallyget
@@ -41,14 +36,12 @@ jobs:
           pkg . --out-path ./dist/
           cd ..
           tar czf "wallyget.tar.gz" ./wallyget/dist/
-=======
           git clone --depth=1 https://github.com/yossTheDev/wallyget
           cd wallyget
           yarn install
           npx oclif pack deb
           cd ..
           tar czf "wallyget.tar.gz" wallyget/dist
->>>>>>> 7697476 (-)
 
       # Upload Artifacts
       - name: Upload Artifacts
