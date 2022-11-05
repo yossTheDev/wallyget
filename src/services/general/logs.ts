@@ -19,7 +19,12 @@ export async function logWallpaper(
 	copyright?: string,
 ): Promise<void> {
 	// Log to the user
+<<<<<<< HEAD
 	console.log('      🔎 I found this wallpaper');
+=======
+	console.log(`
+	🔎 I found this wallpaper`);
+>>>>>>> 7697476 (-)
 
 	// Import Terminal-Image
 	const terminalimage = await import('terminal-image');

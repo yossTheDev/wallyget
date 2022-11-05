@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<title>Nuevo proyecto</title>
+	<defs>
+		<image  width="512" height="512" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIAAQMAAADOtka5AAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAA2SURBVHic7cEBAQAAAIIg/69uSEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwbggAAAdJ4ifAAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		.s0 { fill: #2f2e41 } 
+		.s1 { fill: #262631 } 
+		.s2 { fill: #dfdcdc } 
+		.s3 { fill: #fd4048 } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<path id="Forma 1" class="s0" d="m38 119c0-8.3 6.7-15 15-15h405c8.3 0 15 6.7 15 15v273c0 8.3-6.7 15-15 15h-405c-8.3 0-15-6.7-15-15z"/>
+	<path id="Forma 2" class="s1" d="m40 140c0-8.3 6.7-15 15-15h401c8.3 0 15 6.7 15 15v250c0 8.3-6.7 15-15 15h-401c-8.3 0-15-6.7-15-15z"/>
+	<path id="Forma 3 copy" class="s2" d="m121.1 334.3l-8.9-8.8 70.9-71.6 8.9 8.8z"/>
+	<path id="Forma 3 copy 2" class="s2" d="m111 198.8l9-8.8 70.4 72-8.9 8.8z"/>
+	<path id="Forma 3" class="s2" d="m171 323h92v14h-92z"/>
+	<path id="Forma 5" class="s3" d="m445 123c-3.9 0-7-3.1-7-7 0-3.9 3.1-7 7-7 3.9 0 7 3.1 7 7 0 3.9-3.1 7-7 7z"/>
+</svg>

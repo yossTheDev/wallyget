@@ -1826,6 +1826,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
+=======
+"@types/ini@npm:^1.3.31":
+  version: 1.3.31
+  resolution: "@types/ini@npm:1.3.31"
+  checksum: aca4fed0cd68f6693fd64e1b7d188a9c8c6f5823b2e3501b0570135555d4184d7d0dfba2c1afb3514c94cb21ece732f4467ea98c827d1b1b98716827ac9de680
+  languageName: node
+  linkType: hard
+
+>>>>>>> 7697476 (-)
 "@types/json-schema@npm:^7.0.7":
   version: 7.0.9
   resolution: "@types/json-schema@npm:7.0.9"
@@ -1882,6 +1892,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
+=======
+"@types/os-service@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "@types/os-service@npm:2.2.1"
+  checksum: fbf31969d0fa04d0a3c74663a9aedd4c57b5ceabd8a8d0a1eb96e8b1a2e8a9ff097919e681947402ca7b8167d06784bb826c3e30ba3eaa9c94d703a16f5ac9b1
+  languageName: node
+  linkType: hard
+
+>>>>>>> 7697476 (-)
 "@types/sinon@npm:*":
   version: 10.0.6
   resolution: "@types/sinon@npm:10.0.6"
@@ -5011,6 +5031,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
+=======
+"ini@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "ini@npm:3.0.1"
+  checksum: 947b582a822f06df3c22c75c90aec217d604ea11f7a20249530ee5c1cf8f508288439abe17b0e1d9b421bda5f4fae5e7aae0b18cb3ded5ac9d68f607df82f10f
+  languageName: node
+  linkType: hard
+
+>>>>>>> 7697476 (-)
 "inquirer@npm:^8.0.0":
   version: 8.2.4
   resolution: "inquirer@npm:8.2.4"
@@ -6177,6 +6207,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
+=======
+"nan@npm:2.14.x":
+  version: 2.14.2
+  resolution: "nan@npm:2.14.2"
+  dependencies:
+    node-gyp: latest
+  checksum: 7a269139b66a7d37470effb7fb36a8de8cc3b5ffba6e40bb8e0545307911fe5ebf94797ec62f655ecde79c237d169899f8bd28256c66a32cbc8284faaf94c3f4
+  languageName: node
+  linkType: hard
+
+>>>>>>> 7697476 (-)
 "nanoid@npm:3.1.25":
   version: 3.1.25
   resolution: "nanoid@npm:3.1.25"
@@ -6599,6 +6641,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
+=======
+"os-service@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "os-service@npm:2.2.0"
+  dependencies:
+    nan: 2.14.x
+    node-gyp: latest
+  checksum: 376f14a59e679b10f33b59d8017066bfbc53b436004afe28b974ecad2e77dbd8efe821fc0676f77e6568f91f612bb1bc537dc9ff8d12dbaba009f9b9c808169a
+  languageName: node
+  linkType: hard
+
+>>>>>>> 7697476 (-)
 "os-tmpdir@npm:~1.0.2":
   version: 1.0.2
   resolution: "os-tmpdir@npm:1.0.2"
@@ -8594,8 +8649,15 @@ __metadata:
     "@oclif/plugin-plugins": ^2.0.1
     "@oclif/test": ^2
     "@types/chai": ^4
+<<<<<<< HEAD
     "@types/mocha": ^9.0.0
     "@types/node": ^16.9.4
+=======
+    "@types/ini": ^1.3.31
+    "@types/mocha": ^9.0.0
+    "@types/node": ^16.9.4
+    "@types/os-service": ^2.2.1
+>>>>>>> 7697476 (-)
     ansi-color: ^0.2.1
     axios: ^0.27.2
     chai: ^4
@@ -8606,9 +8668,17 @@ __metadata:
     eslint-config-oclif-typescript: ^1.0.2
     eslint-config-prettier: ^8.5.0
     globby: ^11
+<<<<<<< HEAD
     mocha: ^9
     nodejs-file-downloader: ^4.10.2
     oclif: ^3
+=======
+    ini: ^3.0.1
+    mocha: ^9
+    nodejs-file-downloader: ^4.10.2
+    oclif: ^3
+    os-service: ^2.2.0
+>>>>>>> 7697476 (-)
     prettier: 2.7.1
     puppeteer: ^17.1.3
     shx: ^0.3.3
