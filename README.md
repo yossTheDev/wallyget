@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Wallyget
-
-![screenshot](img/screen.png)
-=======
 <h1 align="center">Wallyget</h1>
 
 <img align="center" src="img/wallyget_screen.png"  alt="MOTS Logo">
@@ -13,20 +8,11 @@ by Yoannis Sánchez Soto</p>
 
 📚 Check the docs [here](https://yossthedev.github.io/wallyget/)
 
->>>>>>> 7697476 (-)
 ![npm](https://img.shields.io/npm/v/wallyget)
 ![downloads/month](https://img.shields.io/npm/dm/wallyget)
 ![Telegram](https://img.shields.io/badge/t.me/yossthedev-Telegram-BLUE?style=flat&logo=Telegram)
 ![Twitter](https://img.shields.io/twitter/follow/yossthedev?style=social)
 
-<<<<<<< HEAD
-Wallyget is a wallpaper downloader for Linux.
-
-  Make with ❤️ and Typescript
-  by Yoannis Sánchez Soto
-
-## How to Use
-=======
 ## 🚀 Features
 
 * Download wallpapers from different sources like: Bing, Wallabyss, NASA and more coming soon
@@ -34,7 +20,6 @@ Wallyget is a wallpaper downloader for Linux.
 * Easy to use commands
 
 ## ⏬ How to Use
->>>>>>> 7697476 (-)
 
 Wallyget allow you to download and set a random wallpaper for the defined category with de command:
 
@@ -48,28 +33,12 @@ All downloaded wallpapers are saved in the Fetched folder, to find out the locat
 
     wallyget fetched
 
-<<<<<<< HEAD
-## Available Sources
-=======
 ## 🌐 Available Sources
->>>>>>> 7697476 (-)
 
 Wallyget allows you to download wallpapers from the following sources:
 
 * [Wallpaper Abyss](https://wall.alphacoders.com/)
 * [Bing Wallpapers](https://bing.com)
-<<<<<<< HEAD
-
-***More*** coming soon
-
-## Map
-<!-- toc -->
-* [Wallyget](#wallyget)
-* [Usage](#usage)
-* [Commands](#commands)
-<!-- tocstop -->
-# Usage
-=======
 * [NASA](https://api.nasa.gov/)
 
 ***More*** coming soon
@@ -79,25 +48,21 @@ Wallyget allows you to download wallpapers from the following sources:
 Any contribution is always welcome. Please let me know of any bugs you detect in MOTS.
 
 ## 👨‍💻 Usage
->>>>>>> 7697476 (-)
+
 <!-- usage -->
 ```sh-session
 $ npm install -g wallyget
 $ wallyget COMMAND
 running command...
 $ wallyget (--version)
-<<<<<<< HEAD
-wallyget/0.0.3 linux-x64 node-v16.17.0
-=======
 wallyget/0.0.4 linux-x64 node-v16.17.0
->>>>>>> 7697476 (-)
 $ wallyget --help [COMMAND]
 USAGE
   $ wallyget COMMAND
 ...
 ```
 <!-- usagestop -->
-<<<<<<< HEAD
+
 # Commands
 <!-- commands -->
 * [`wallyget about`](#wallyget-about)
@@ -105,20 +70,9 @@ USAGE
 * [`wallyget bing yesterday`](#wallyget-bing-yesterday)
 * [`wallyget fetched`](#wallyget-fetched)
 * [`wallyget help [COMMAND]`](#wallyget-help-command)
-* [`wallyget wallabyss CATEGORY`](#wallyget-wallabyss-category)
-* [`wallyget wallabyss categories`](#wallyget-wallabyss-categories)
-=======
-### Commands
-<!-- commands -->
-* [`wallyget about`](#wallyget-about)
-* [`wallyget bing`](#wallyget-bing)
-* [`wallyget bing:yesterday`](#wallyget-bingyesterday)
-* [`wallyget fetched`](#wallyget-fetched)
-* [`wallyget help [COMMAND]`](#wallyget-help-command)
 * [`wallyget nasa`](#wallyget-nasa)
 * [`wallyget wallabyss CATEGORY`](#wallyget-wallabyss-category)
-* [`wallyget wallabyss:categories`](#wallyget-wallabysscategories)
->>>>>>> 7697476 (-)
+* [`wallyget wallabyss categories`](#wallyget-wallabyss-categories)
 
 ## `wallyget about`
 
@@ -135,11 +89,7 @@ EXAMPLES
   $ wallyget about
 ```
 
-<<<<<<< HEAD
-_See code: [dist/commands/about/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.3/dist/commands/about/index.ts)_
-=======
 _See code: [dist/commands/about/index.ts](https://github.com/yossTheDev/wallyget/blob/v0.0.4/dist/commands/about/index.ts)_
->>>>>>> 7697476 (-)
 
 ## `wallyget bing`
 
@@ -159,41 +109,23 @@ EXAMPLES
   $ wallyget bing
 ```
 
-<<<<<<< HEAD
-_See code: [dist/commands/bing/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.3/dist/commands/bing/index.ts)_
-
-## `wallyget bing yesterday`
-=======
 _See code: [dist/commands/bing/index.ts](https://github.com/yossTheDev/wallyget/blob/v0.0.4/dist/commands/bing/index.ts)_
 
-## `wallyget bing:yesterday`
->>>>>>> 7697476 (-)
+## `wallyget bing yesterday`
 
 Download yesterday`s Wallpaper
 
 ```
 USAGE
-<<<<<<< HEAD
   $ wallyget bing yesterday
-=======
-  $ wallyget bing:yesterday
->>>>>>> 7697476 (-)
 
 DESCRIPTION
   Download yesterday`s Wallpaper
 
 EXAMPLES
-<<<<<<< HEAD
   $ wallyget bing yesterday
 ```
 
-=======
-  $ wallyget bing:yesterday
-```
-
-_See code: [dist/commands/bing/yesterday.ts](https://github.com/yossTheDev/wallyget/blob/v0.0.4/dist/commands/bing/yesterday.ts)_
-
->>>>>>> 7697476 (-)
 ## `wallyget fetched`
 
 Show the location of the Fetched folder
@@ -206,11 +138,7 @@ DESCRIPTION
   Show the location of the Fetched folder
 ```
 
-<<<<<<< HEAD
-_See code: [dist/commands/fetched/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.3/dist/commands/fetched/index.ts)_
-=======
 _See code: [dist/commands/fetched/index.ts](https://github.com/yossTheDev/wallyget/blob/v0.0.4/dist/commands/fetched/index.ts)_
->>>>>>> 7697476 (-)
 
 ## `wallyget help [COMMAND]`
 
@@ -232,8 +160,6 @@ DESCRIPTION
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v5.1.10/src/commands/help.ts)_
 
-<<<<<<< HEAD
-=======
 ## `wallyget nasa`
 
 Download wallpapers from NASA Astronomy Picture Of The Day
@@ -251,7 +177,6 @@ EXAMPLES
 
 _See code: [dist/commands/nasa/index.ts](https://github.com/yossTheDev/wallyget/blob/v0.0.4/dist/commands/nasa/index.ts)_
 
->>>>>>> 7697476 (-)
 ## `wallyget wallabyss CATEGORY`
 
 Download wallpapers from Wallpaper Abyss
@@ -278,32 +203,17 @@ EXAMPLES
     🌐 Download Link:  "Wallpaper_Download_Link"
 ```
 
-<<<<<<< HEAD
-_See code: [dist/commands/wallabyss/index.ts](https://github.com/yossTheDev/hello-world/blob/v0.0.3/dist/commands/wallabyss/index.ts)_
-
-## `wallyget wallabyss categories`
-=======
 _See code: [dist/commands/wallabyss/index.ts](https://github.com/yossTheDev/wallyget/blob/v0.0.4/dist/commands/wallabyss/index.ts)_
 
-## `wallyget wallabyss:categories`
->>>>>>> 7697476 (-)
+## `wallyget wallabyss categories`
 
 Show all available categories for Wallpapers Abyss
 
 ```
 USAGE
-<<<<<<< HEAD
   $ wallyget wallabyss categories
-=======
-  $ wallyget wallabyss:categories
->>>>>>> 7697476 (-)
 
 DESCRIPTION
   Show all available categories for Wallpapers Abyss
 ```
-<<<<<<< HEAD
-=======
-
-_See code: [dist/commands/wallabyss/categories.ts](https://github.com/yossTheDev/wallyget/blob/v0.0.4/dist/commands/wallabyss/categories.ts)_
->>>>>>> 7697476 (-)
 <!-- commandsstop -->

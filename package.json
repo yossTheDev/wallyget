@@ -1,22 +1,13 @@
 {
 	"name": "wallyget",
-<<<<<<< HEAD
-	"version": "0.0.3",
-	"description": "Wallyget is a wallpaper downloader for Linux",
-=======
 	"version": "0.0.4",
 	"description": "Wallyget is a wallpaper downloader for 🐧 Linux",
->>>>>>> 7697476 (-)
 	"author": "",
 	"bin": "./bin/run",
 	"homepage": "https://github.com/yossTheDev/wallyget",
 	"license": "MIT",
 	"main": "dist/index.js",
-<<<<<<< HEAD
-	"repository": "yossTheDev/hello-world",
-=======
 	"repository": "yossTheDev/wallyget",
->>>>>>> 7697476 (-)
 	"files": [
 		"/bin",
 		"/dist",
@@ -27,22 +18,14 @@
 		"@oclif/core": "^1.13.10",
 		"@oclif/plugin-help": "^5",
 		"@oclif/plugin-plugins": "^2.0.1",
-<<<<<<< HEAD
-=======
-		"@types/ini": "^1.3.31",
 		"@types/os-service": "^2.2.1",
->>>>>>> 7697476 (-)
 		"ansi-color": "^0.2.1",
 		"axios": "^0.27.2",
 		"chalk": "^5.0.1",
 		"cheerio": "^1.0.0-rc.12",
-<<<<<<< HEAD
 		"nodejs-file-downloader": "^4.10.2",
-=======
 		"ini": "^3.0.1",
-		"nodejs-file-downloader": "^4.10.2",
 		"os-service": "^2.2.0",
->>>>>>> 7697476 (-)
 		"puppeteer": "^17.1.3",
 		"terminal-image": "^2.0.0",
 		"wallpaper": "^6.1.1"
@@ -52,6 +35,7 @@
 		"@types/chai": "^4",
 		"@types/mocha": "^9.0.0",
 		"@types/node": "^16.9.4",
+		"@types/ini@npm": "^1.3.31",
 		"chai": "^4",
 		"eslint": "^7.32.0",
 		"eslint-config-oclif": "^4",
@@ -72,13 +56,9 @@
 		"commands": "./dist/commands",
 		"plugins": [
 			"@oclif/plugin-help"
-<<<<<<< HEAD
 		],
 		"topicSeparator": " ",
 		"topics": {}
-=======
-		]
->>>>>>> 7697476 (-)
 	},
 	"scripts": {
 		"build": "shx rm -rf dist && tsc -b",
@@ -97,12 +77,8 @@
 		"oclif",
 		"wallpaper",
 		"downloader",
-<<<<<<< HEAD
-		"linux"
-=======
 		"linux",
 		"cli"
->>>>>>> 7697476 (-)
 	],
 	"types": "dist/index.d.ts"
 }
