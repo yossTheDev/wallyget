@@ -1,6 +1,6 @@
 <h1 align="center">Wallyget</h1>
 
-<img align="center" height="200px" src="img/wallyget_screen.png"  alt="MOTS Logo">
+<img align="center" src="img/wallyget_screen.png"  alt="MOTS Logo">
 
 <p align="center">Wallyget is a wallpaper downloader for Linux.
 Make with ❤️ and Typescript
