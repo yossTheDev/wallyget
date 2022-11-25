@@ -36,13 +36,7 @@ jobs:
           pkg . --out-path ./dist/
           cd ..
           tar czf "wallyget.tar.gz" ./wallyget/dist/
-          git clone --depth=1 https://github.com/yossTheDev/wallyget
-          cd wallyget
-          yarn install
-          npx oclif pack deb
-          cd ..
-          tar czf "wallyget.tar.gz" wallyget/dist
-
+          
       # Upload Artifacts
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
