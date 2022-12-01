@@ -21,7 +21,7 @@
 		"@types/os-service": "^2.2.1",
 		"ansi-color": "^0.2.1",
 		"axios": "^0.27.2",
-		"chalk": "^5.0.1",
+		"chalk": "^5.1.2",
 		"cheerio": "^1.0.0-rc.12",
 		"nodejs-file-downloader": "^4.10.2",
 		"os-service": "^2.2.0",
