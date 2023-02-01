@@ -23,7 +23,7 @@
 		"axios": "^0.27.2",
 		"chalk": "^5.0.1",
 		"cheerio": "^1.0.0-rc.12",
-		"nodejs-file-downloader": "^4.10.2",
+		"nodejs-file-downloader": "^4.10.6",
 		"os-service": "^2.2.0",
 		"puppeteer": "^17.1.3",
 		"terminal-image": "^2.0.0",
